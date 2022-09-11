@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#board {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 100px;
+}
+
+#grid {
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+
+
+#player{
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+}
+
+
+#ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 100px;
+    bottom: 250px;
+    left: 230px;
+}
